@@ -7,7 +7,7 @@ Hyperlink: The webpage includes a hyperlink ("Visit Google Website") that links 
 ## Usage
 To use this webpage, follow these steps:
 
-## Download the HTML file (index.html) to your local computer.
+Download the HTML file (index.html) to your local computer.
 Optionally, replace 'background-image.jpg' in the CSS with the path to your desired background image.
 Open the HTML file (index.html) in a web browser to view the webpage.
 Click on the "Visit Google Website" hyperlink to navigate to the Google website.
