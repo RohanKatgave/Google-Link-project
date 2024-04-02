@@ -1,0 +1,61 @@
+<!--Create a website with some background images and a proper headline with the following requirements:
+
+Tasks:
+
+Create a hyperlink (<a>) that links to the website https://www.google.com. Set the display text of the hyperlink to 
+"Visit Google Website."
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+<style>
+    /* CSS to set background images */
+    body {
+        background-image: url('modern-.jpg'); /* Specify the path to your background image */
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+    /* CSS to style the headline */
+    h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    /* CSS to style the hyperlink */
+    a {
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    a:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+</style>
+</head>
+<body>
+
+<!-- Headline -->
+<h1>Welcome to My Website</h1>
+
+<!-- Hyperlink to Google website -->
+<a href="https://www.google.com" target="_blank">Visit Google Website</a>
+
+</body>
+</html>
